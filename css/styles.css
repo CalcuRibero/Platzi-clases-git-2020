@@ -2,10 +2,19 @@ body{
     text-align: center;
     padding: 1em;
     background: black;
-    color: deeppink;
+    color: white;
     font-family: Arial, Helvetica, sans-serif;
 }
 
+.container{
+	display: flex;
+}
+
 p{
-	border-bottom: 1em white solid;
+	margin:10px;
+	background: white;
+	font-weight: bold;
+	color: black;
+	border: 1em white solid;
+	border-radius: 20px
 }
